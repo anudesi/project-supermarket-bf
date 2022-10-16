@@ -1,0 +1,212 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 62.5%;
+}
+.header {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+}
+.logo {
+  background-color: green;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-img {
+  margin-left: 5px;
+  border-radius: 8px;
+}
+
+.logo-search {
+  display: flex;
+}
+
+.cart {
+  font-size: 10px;
+  margin-right: 10px;
+  display: flex;
+}
+.cart-text {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.drop-down {
+  border: 1px solid red;
+  background-color: green;
+}
+.drop-menu {
+  font-size: 10px;
+  background-color: green;
+  color: white;
+}
+
+.hero-image img {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+/* footer */
+
+.footer-container {
+  padding: 10px;
+  font-size: 1.5em;
+  display: flex;
+  justify-content: space-between;
+  background-color: green;
+  color:white;
+}
+.footer-container h6 {
+  margin-bottom: 5px;  
+}
+.foo-col span{
+  margin-right: 10px;
+}
+hr{
+ border:1px solid orange;
+ background-color: orange;
+}
+/* About Buy Fresh */
+.about-bf {
+  border: 1px solid orange;
+  padding: 10px;
+}
+.about-bf h3 {
+  margin-top: 20px;
+}
+.about-bf p {
+  margin-top: 20px;
+  font-size: 1em;
+}
+.about-bf ul {
+  margin-top: 10px;
+}
+.about-bf ul li {
+  font-size: 10px;
+  margin-left: 30px;
+}
+
+/* best deals */
+
+.best-container input {
+  max-width: 2em;
+}
+.best-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 0 20px 0;
+  gap: 10px;
+}
+.small-col {
+ max-width: 20%;
+  background: rgb(230, 230, 230);
+  padding: 10px;
+  font-size: 12px;
+  border: 1px solid gray;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.small-col img {
+  max-width: 100%;
+  max-height: 80%;
+}
+button {
+  font-size: 10px;
+  background-color: green;
+  color: white;
+}
+.small-col span {
+  font-size: 10px;
+}
+h2 {
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: orange;
+  text-underline-offset: 10px;  
+  padding:10px;
+}
+
+/* Contact us*/
+.mapouter {
+  position: relative;
+  text-align: right;
+  max-height: 30em;
+  max-width: 60em;
+  z-index:-1000; 
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 10px;  
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  max-height: 30em;
+  max-width: 60em;
+ 
+}
+
+
+/* nav bar */
+.drop-down {
+  display: flex;
+  justify-content: space-between;
+}
+.drop-down ul li {
+  display: inline-block;
+  margin: 5px;
+  list-style: none;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+/* login /register */
+
+.login-reg-container{
+  padding: 20px;
+  display:flex; 
+ 
+}
+.form{
+  margin: 0 auto; 
+}
+.login,.register{
+ text-align: center;
+  line-height: 1.75rem;  
+}
+.login button{
+  width:50px;
+  text-align: center;
+  padding: 2px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.register button{
+  width:50px;
+  text-align: center;
+  padding: 2px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+
+@media only screen and (max-width: 400px){
+  .body{
+    width:100%;
+    margin: 0 auto;
+
+  }
+
+
+}
